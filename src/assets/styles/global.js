@@ -12,6 +12,6 @@ export default createGlobalStyle`
   
   body {
     background: ${({ theme }) => theme.colors.background};
-    font-size: ${({ theme }) => theme.specing.medium};
+    font-size: 16px;
   }
 `;
