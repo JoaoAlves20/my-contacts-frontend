@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 import edit from '../../assets/images/icons/edit.svg'
 import trash from '../../assets/images/icons/trash.svg'
 
@@ -27,4 +29,11 @@ export default function Card({
       </div>
     </Container>
   )
+}
+
+Card.propTypes = {
+  name: PropTypes.string.isRequired,
+  instagram: PropTypes.string.isRequired,
+  email: PropTypes.string.isRequired,
+  phone: PropTypes.string.isRequired,
 }
